@@ -21,7 +21,7 @@ Una vez registrado buscaremos por toda la página un lugar donde se pueda subir 
 ![Paso4](https://github.com/Destri0/Ciberseguridad/assets/109970051/7fb0ae53-0fb7-4b44-bdfa-e734372a4e24)
 
 Encontramos en el apartado de Personal options un lugar para subir nuestro avatar. Aprovecharemos eso para subir una reserve shell.
-Antes utilizaremos la herramienta gobuster para ver las direcciones que tiene la ip víctima donde se podría subir ese archivo.
+Antes utilizaremos la herramienta gobuster para ver los directorios que tiene la ip víctima donde se podría subir ese archivo.
 
 > gobuster dir -u http://IP_VICTIMA/ -w /usr/share/wordlists/dirbuster/directory-list-lowecase-2.3-medium.txt
 
